@@ -1,6 +1,6 @@
 # html5-canvas-boilerplate
 Boilerplate code to start developing in HTML5 canvas
-HTML
+index.html
 ```html
 <!DOCTYPE html>
 <html>
@@ -23,13 +23,13 @@ HTML
     </head>
     <body>
         <canvas></canvas>
-        <script src="starter.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
 ```
 
 
-Javascript
+script.js
 ```javascript
 const ctx = document.querySelector('canvas').getContext('2d')
 const state = {
