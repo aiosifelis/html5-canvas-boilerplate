@@ -1,5 +1,35 @@
 # html5-canvas-boilerplate
 Boilerplate code to start developing in HTML5 canvas
+HTML
+```html5
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>HTML5 Canvas Boilerplate</title>
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            html, body, canvas {
+                position:fixed;
+                width: 100%;
+                height:100%;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas></canvas>
+        <script src="starter.js"></script>
+    </body>
+</html>
+```
+
+
+Javascript
 ```javascript
 const ctx = document.querySelector('canvas').getContext('2d')
 const state = {
